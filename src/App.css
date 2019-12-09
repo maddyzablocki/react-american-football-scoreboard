@@ -1,12 +1,12 @@
 :root {
   --black: #0d0d0d;
-  --red: #ff2d2b;
+  --red: #e0e0e0;
 }
 
 .scoreboard {
-  width: 58%;
+  width: 60%;
   margin: 10rem auto;
-  background-color: #0b5402;
+  background-image: linear-gradient(to right,#1741ac, #139c1a);
   color: white;
   border-radius: 0.5rem;
   margin-top: 10rem;
@@ -30,15 +30,15 @@
   place-items: center;
   border: 3px solid white;
   border-radius: 0.5rem;
-  width: 15rem;
+  width: 20rem;
 }
 
 .home {
-  background-color: #656565;
+  background-color: #1b8a20;
 }
 
 .away {
-  background-color: #af750a;
+  background-color: #0a51af;
 }
 
 .home__name,
@@ -107,7 +107,7 @@
 }
 
 .buttons {
-  width: 50%;
+  width: 70%;
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
@@ -120,3 +120,4 @@
   margin: 1rem;
   border-radius: 4px;
 }
+
